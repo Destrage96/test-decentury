@@ -1,0 +1,42 @@
+{
+  "name": "test-decentury",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Anna <anna.s.anna@rambler.ru>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@nuxtjs/axios": "^5.9.7",
+    "babel-eslint": "^10.0.3",
+    "chart.js": "^2.9.3",
+    "intersection-observer": "^0.7.0",
+    "lodash": "^4.17.15",
+    "nuxt": "^2.0.0",
+    "view-design": "^4.2.0",
+    "vue-chartjs": "^3.5.0",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-vue": "^6.0.1",
+    "jsdom": "^16.1.0",
+    "jsdom-global": "^3.0.2",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  }
+}
