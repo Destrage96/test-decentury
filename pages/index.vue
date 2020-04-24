@@ -98,7 +98,6 @@
         readonly: true,
         onSelectedPhone: {},
         phones: [],
-        filter: [],
         query: '',
         showForm: false
       }
